@@ -1,0 +1,28 @@
+@import "../../index.scss";
+.logo {
+  color: $MainPink;
+  font-size: 1.5rem;
+}
+
+.Navbar {
+  background: $MainBlack;
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.nav__links {
+  align-self: center;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding-right: 10rem;
+  flex-wrap: wrap;
+}
+.nav__link {
+  text-decoration: none;
+  color: $MianWhite;
+  padding-left: 15rem;
+  font-size: 1.3rem;
+}
