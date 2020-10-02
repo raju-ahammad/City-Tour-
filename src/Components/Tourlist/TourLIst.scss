@@ -1,5 +1,8 @@
 .tour__list {
-  width: 25vw;
-  margin: 0 auto;
-  padding: 0.5rem 0;
+  display: flex;
+  padding: 0.8rem 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: initial;
 }

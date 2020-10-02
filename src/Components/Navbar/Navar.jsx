@@ -5,7 +5,6 @@ import "./Navbar.scss"
 const Navar = () => {
     return (
         <nav className="Navbar">
-            {/* <h4 className="logo">City Tour</h4> */}
             <img src={tour} alt="" className="logo"/>
             <ul className="nav__links">
                 <li>

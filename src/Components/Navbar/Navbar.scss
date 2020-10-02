@@ -13,16 +13,29 @@
 }
 
 .nav__links {
-  align-self: center;
   list-style-type: none;
   display: flex;
   align-items: center;
-  padding-right: 10rem;
   flex-wrap: wrap;
+  margin-right: 5rem;
+  justify-content: center;
 }
 .nav__link {
   text-decoration: none;
   color: $MianWhite;
-  padding-left: 15rem;
+  padding-right: 5rem;
   font-size: 1.3rem;
+}
+
+@media screen and (max-width: 688px) {
+  .logo {
+    width: 28%;
+    height: 28%;
+    margin-top: 2rem;
+  }
+  .nav__links {
+    margin-right: 5rem;
+    display: flex;
+    flex-direction: column;
+  }
 }
