@@ -2,7 +2,13 @@
 .card__image {
   width: 100%;
   height: 30%;
+  border-radius: 5px;
 }
 .Tour {
   background: $MainGray;
+  border-radius: 7px;
+}
+.tour__info {
+  color: black;
+  padding: 0.5rem 1rem;
 }
